@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Participate in Workshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Participate in Workshop</h1>
+        <form id="participateWorkshopForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="workshop">Workshop:</label>
+                <select id="workshop" name="workshop" required>
+                    <option>select the workshop<option>
+                    <option>Dengue awarness workshop,Delhi</option>
+                    <option>Vaccination workshop,Mumbai</option>
+                    <option>Free eye checking,chennai</option>
+                    <option>Health is Wealth,benagluru</option>
+                </select>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <div id="videoContainer">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
